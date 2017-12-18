@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Prophetic Music</string>
+
+    // Song name and artist name text label
+    <string name="songName_txt">Song name</string>
+    <string name="artistName_txt">Artist</string>
+
+    //1st song name and artist name of ArrayList data
+    <string name="songName1">Enni Ohebo Mohammad</string>
+    <string name="artistName1">Salah El Din AlKousy</string>
+
+    //2nd song name and artist name of ArrayList data
+    <string name="songName2">Tala\'al Badru \'Alaina</string>
+    <string name="artistName2">Hasan Alhaffar</string>
+
+    //3rd song name and artist name of ArrayList data
+    <string name="songName3">Nurul Musthofa</string>
+    <string name="artistName3">Abo shaar Brothers</string>
+
+    //4th song name and artist name of ArrayList data
+    <string name="songName4">Bika Moulhimi</string>
+    <string name="artistName4">Maher Zain &amp; Mustafa Ceceli</string>
+
+    //5th song name and artist name of ArrayList data
+    <string name="songName5">Try Not to Cry</string>
+    <string name="artistName5">Sami Yusuf</string>
+
+    //6th song name and artist name of ArrayList data
+    <string name="songName6">Ummati</string>
+    <string name="artistName6">Maher Zain</string>
+
+    //7th song name and artist name of ArrayList data
+    <string name="songName7">Al Ahad</string>
+    <string name="artistName7">Mustafa Ceceli</string>
+
+
+</resources>
