@@ -48,12 +48,43 @@
         android:layout_weight="1"
         android:scaleType="centerCrop" />
 
-    <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:layout_gravity="center"
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:src="@android:drawable/ic_media_play" />
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/playListButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:background="@color/colorPrimary"
+            android:text="@string/playListBtn"
+            android:textColor="#FFFFFFFF" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:backgroundTint="@color/colorPrimary"
+            android:src="@android:drawable/ic_media_play"
+            android:tooltipText="Play" />
+
+        <Button
+            android:id="@+id/playNextButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:background="@color/colorPrimary"
+            android:text="@string/playNextButton"
+            android:textColor="#FFFFFFFF" />
+
+
+    </LinearLayout>
+
 
 
 </LinearLayout>

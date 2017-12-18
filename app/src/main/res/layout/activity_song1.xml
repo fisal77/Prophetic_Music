@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:gravity="center_vertical"
+    android:orientation="vertical"
     android:padding="16dp"
-    tools:context="com.fisal.propheticmusic.Song1"
-    android:orientation="vertical">
+    tools:context="com.fisal.propheticmusic.Song1">
 
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/songName_txt"
-        android:gravity="center" />
+        android:gravity="center"
+        android:text="@string/songName_txt" />
+
     <TextView
         android:id="@+id/SongName"
         android:layout_width="match_parent"
@@ -27,9 +27,10 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:gravity="center"
         android:layout_marginTop="14dp"
+        android:gravity="center"
         android:text="@string/artistName_txt" />
+
     <TextView
         android:id="@+id/ArtistName"
         android:layout_width="match_parent"
@@ -38,24 +39,50 @@
         android:text="@string/artistName1" />
 
 
-
     <ImageView
         android:id="@+id/AlbumPhoto"
-        android:src="@drawable/alkousy"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_marginTop="14dp"
         android:layout_weight="1"
-        android:scaleType="centerCrop" />
+        android:scaleType="centerCrop"
+        android:src="@drawable/alkousy" />
 
-    <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:layout_gravity="center"
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:src="@android:drawable/ic_media_play" />
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/playListButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:background="@color/colorPrimary"
+            android:text="@string/playListBtn"
+            android:textColor="#FFFFFFFF" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:backgroundTint="@color/colorPrimary"
+            android:src="@android:drawable/ic_media_play"
+            android:tooltipText="Play" />
+
+        <Button
+            android:id="@+id/playNextButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:background="@color/colorPrimary"
+            android:text="@string/playNextButton"
+            android:textColor="#FFFFFFFF" />
 
 
+    </LinearLayout>
 
 
 </LinearLayout>

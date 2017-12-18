@@ -5,6 +5,10 @@
     <string name="songName_txt">Song name</string>
     <string name="artistName_txt">Artist</string>
 
+    //PLay list button text
+    <string name="playListBtn">Home</string>
+    <string name="playNextButton">Next song</string>
+
     //1st song name and artist name of ArrayList data
     <string name="songName1">Enni Ohebo Mohammad</string>
     <string name="artistName1">Salah El Din AlKousy</string>
